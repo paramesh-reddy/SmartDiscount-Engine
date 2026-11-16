@@ -146,6 +146,14 @@ Cycle prevention uses Depth-First Search (DFS) reachability over `topic_prerequi
    npm test
    ```
 
+### Deploying to Vercel
+
+Vercel serves the Vite frontend from `dist` and the API through `api/[...path].ts`.
+In the Vercel project settings, add `DATABASE_URL`, `JWT_SECRET`, and
+`JWT_REFRESH_SECRET`; add `GEMINI_API_KEY` to enable the AI assistant. Set
+`APP_URL` to your deployed site URL if you need to restrict API CORS. Redeploy
+after adding or changing environment variables.
+
 ---
 
 ## 8. Demo Credentials (Development Only)
