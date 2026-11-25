@@ -1,5 +1,4 @@
 node_modules/
-<<<<<<< HEAD
 dist/
 frontend/dist/
 .env
@@ -10,13 +9,3 @@ __pycache__/
 venv/
 .pytest_cache/
 *.egg-info/
-=======
-build/
-dist/
-coverage/
-.DS_Store
-*.log
-.env*
-!.env.example
-data/
->>>>>>> a5c9137180db6578bb85f487adeca0908e5c7e1c
